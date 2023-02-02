@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Table 2 Sheets</title>
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src * self blob: data: gap:; style-src * self 'unsafe-inline' blob: data: gap:; script-src * 'self' 'unsafe-eval' 'unsafe-inline' blob: data: gap:; object-src * 'self' blob: data: gap:; img-src * self 'unsafe-inline' blob: data: gap:; connect-src self * 'unsafe-inline' blob: data: gap:; frame-src * self blob: data: gap:;">
+
+  <link rel="stylesheet" href="popup.css">
+
+</head>
+
+<body>
+
+  <head>
+    <div class="brand"><img width="48" height="48" src="images/icons/48.png" alt="table2sheets">
+      <h1 class="heading ">Table 2 Sheets</h1>
+    </div>
+    <p class="current-domain" id="current-domain"></p>
+
+  </head>
+
+
+  <select id="table-select"></select>
+  <br>
+
+  <div class="download-buttons">
+    <button id="download-csv">Download CSV</button>
+    <button id="download-excel">Download Excel</button>
+  </div>
+  <br>
+  <table id="preview-table">
+
+  </table>
+
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.15.5/xlsx.full.min.js"></script> -->
+
+  <script src="popup.js"></script>
+  <script src="libraries/xlsx.full.min.js"></script>
+</body>
+
+</html>

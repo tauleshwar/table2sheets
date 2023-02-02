@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    overflow: hidden;
+}
+
+.heading {
+    text-align: center;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 20px;
+}
+.brand {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.current-domain {
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 30px;
+}
+
+#table-select {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.download-buttons {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#download-csv {
+    padding: 10px 20px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #333;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.2s ease-out;
+}
+
+#download-csv:hover {
+    background-color: #555;
+}
+#download-excel {
+    padding: 10px 20px;
+    border: 1px solid #228B22;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #3CB371;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.2s ease-out;
+}
+
+#download-excel:hover {
+    background-color: #3E8E41;
+}
+
+
+
+#preview-table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgba(248, 236, 166, 0.766);
+}
+
+#preview-table th, #preview-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#preview-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+#preview-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
