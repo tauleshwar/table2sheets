@@ -1,15 +1,15 @@
 # Table2Sheets Chrome Extension
 
-Table2Sheets is a powerful and user-friendly Chrome extension designed to extract tables from websites and instantly import them into Google Sheets.
+Table2Sheets is a powerful and user-friendly Chrome extension designed to extract tables from websites and instantly save them as CSV or Excel files.
 
 ![Screenshot](http://wpbackendapi.tutorend.com/wp-content/uploads/2023/04/screenshot-1.png)
 
 ## Features
 
 - One-click extraction of tables from websites
-- Instant import of extracted tables into Google Sheets
+- Instant saving of extracted tables as CSV or Excel files
 - Supports multiple tables on a single page
-- Automatic formatting of the imported data
+- Automatic formatting of the saved data
 - User-friendly interface
 - Compatible with a wide range of websites
 
@@ -26,5 +26,6 @@ Table2Sheets is a powerful and user-friendly Chrome extension designed to extrac
 1. Navigate to a website containing the table(s) you want to extract.
 2. Click on the Table2Sheets extension icon in the Chrome toolbar.
 3. Choose the table you want to extract by selecting it from the list.
-4. Click the "Export to Sheets" button.
-5. The data will be instantly imported into a new Google Sheet, and the sheet will open in a new tab.
+4. Select the desired file format (CSV or Excel).
+5. Click the "Download" button.
+6. It will automatically save the file in your donwload folder.
